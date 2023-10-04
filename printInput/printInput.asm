@@ -1,6 +1,6 @@
 section .data ; .data is where defined variables are entered.
 
-	STDIN equ 0 	;Argument for where to get user input, I believe.
+	STDIN equ 0 	;This value lets the system know we are getting a value from the register.
 	STDOUT equ 1    ;This is the standard output argument.
 	SYS_EXIT equ 1  ;This is for when we exit the code.
 	SYS_READ equ 3  ;For when we want to read input from the user.
